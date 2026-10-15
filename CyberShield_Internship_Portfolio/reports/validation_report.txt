@@ -1,0 +1,21 @@
+# Validation Report
+
+Validation date: 2026-10-15
+
+## Checks performed
+- Python syntax compilation (`compileall`): passed.
+- Unit tests: 6 passed, 0 failed.
+- Historical case CSV: 40 rows, 9 columns; year span 2010–2025; 0 missing cells; 0 duplicate rows; all source fields begin with HTTP(S).
+- Synthetic incident CSV: 168 rows, 10 columns; 0 missing cells; 0 duplicate rows.
+- Synthetic message CSV: 40 rows, 4 columns; 0 missing cells; 0 duplicate rows.
+
+## Test coverage
+- Credential/OTP warning signal.
+- Benign reminder with no configured signal.
+- Score cap.
+- Text-only URL extraction.
+- Loading of synthetic datasets.
+- Historical dataset schema and year range.
+
+## Limitations of this validation
+The Streamlit UI was not launched in this validation environment because Streamlit is not installed here. Install dependencies from `requirements.txt` and run `streamlit run app.py` to verify the live browser interface on your machine. The historical dataset is curated, not exhaustive; source links should be checked against case-specific primary evidence before formal citation. Passing these tests does not establish real-world detection accuracy.

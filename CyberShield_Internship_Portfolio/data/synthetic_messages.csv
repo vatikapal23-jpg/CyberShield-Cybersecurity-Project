@@ -1,0 +1,41 @@
+message_id,label,text,synthetic_example
+MSG-001,suspicious,URGENT: Your bank account will be blocked. Click here to verify your password and OTP immediately.,True
+MSG-002,suspicious,Police have placed you under digital arrest. Transfer money for verification and do not tell anyone.,True
+MSG-003,suspicious,Your parcel is held. Pay a small delivery fee using this link now.,True
+MSG-004,suspicious,"Congratulations, you won a prize. Pay a processing fee to claim it today.",True
+MSG-005,suspicious,A recruiter offers a high-paying job but requires a registration fee first.,True
+MSG-006,benign,"Your account has a new login. If this was not you, open the official app directly and review security settings.",True
+MSG-007,benign,The class meeting starts at 10 AM tomorrow in Room 12.,True
+MSG-008,benign,Your monthly statement is available in the official banking app. Never share your OTP or PIN.,True
+MSG-009,benign,Please review the attached agenda before Friday's meeting.,True
+MSG-010,benign,A colleague asks to confirm a vendor bank-account change by calling the known number already on file.,True
+MSG-011,suspicious,A caller claiming to be bank support asks me to install a remote access app and open my banking app.,True
+MSG-012,suspicious,Someone promises guaranteed crypto returns and asks for my wallet recovery phrase.,True
+MSG-013,suspicious,Your UPI PIN is needed to receive a refund; act now.,True
+MSG-014,suspicious,Repeated MFA approval prompts appear even though I am not logging in.,True
+MSG-015,benign,A service desk ticket confirms your password reset request that you initiated yourself.,True
+MSG-016,suspicious,An unknown sender asks me to enable macros to view an invoice.,True
+MSG-017,suspicious,A friend asks for money urgently from a new account and says not to call them.,True
+MSG-018,benign,The software update is available through the device's built-in settings menu.,True
+MSG-019,suspicious,A fake support account asks for my OTP to cancel a transaction.,True
+MSG-020,benign,The organisation's IT team announces a planned maintenance window with a ticket number.,True
+MSG-021,suspicious,Your SIM suddenly loses service and several accounts send password-reset alerts.,True
+MSG-022,suspicious,A stranger asks for an upfront loan fee and extensive phone permissions.,True
+MSG-023,suspicious,Files suddenly have unfamiliar extensions and a ransom note appears.,True
+MSG-024,suspicious,A vendor sends a payment-detail change request with unusual urgency and secrecy.,True
+MSG-025,benign,A school newsletter lists next week's schedule and asks no one for credentials or money.,True
+MSG-026,suspicious,Someone threatens to publish private images unless money is sent by tonight.,True
+MSG-027,suspicious,A caller asks me to scan a QR code to receive money and enter my UPI PIN.,True
+MSG-028,suspicious,An online contact asks me to invest through a trading dashboard with guaranteed profits.,True
+MSG-029,suspicious,A cloud storage bucket was found publicly accessible during an authorised review.,True
+MSG-030,benign,The website safely uses a standard sign-in page I reached by typing the known address myself.,True
+MSG-031,suspicious,A person claims to be an officer on a video call and demands secrecy and an immediate transfer.,True
+MSG-032,benign,The delivery company app shows my parcel tracking status after I opened the app directly.,True
+MSG-033,suspicious,A new unknown app has accessibility permissions and the phone is behaving unusually.,True
+MSG-034,benign,An IT administrator asks users not to approve login prompts they did not initiate.,True
+MSG-035,suspicious,A message says I must pay a fee to release a lottery prize I never entered.,True
+MSG-036,benign,A database error appeared during an approved security test in a staging environment.,True
+MSG-037,suspicious,An unknown executable attachment arrives unexpectedly with instructions to disable antivirus.,True
+MSG-038,benign,A manager requests a confidential payment; the employee verifies the request through the established second channel.,True
+MSG-039,suspicious,A caller says not to contact the bank or police and to keep the conversation secret.,True
+MSG-040,benign,The backup team successfully completed a documented restore test from an isolated backup.,True
